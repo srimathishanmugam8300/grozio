@@ -27,6 +27,7 @@ const Login = () => {
       setLocation();
       showNotification('Location detected successfully!');
     }, 2000);
+    
   };
 
   const denyLocation = () => {
